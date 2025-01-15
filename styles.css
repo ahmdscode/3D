@@ -362,8 +362,8 @@ footer {
     padding: 15px;
     text-align: center;
     font-weight: 100;
+    color: rgb(240, 240, 240); /*TEXT COLOR*/
 }
-
 @keyframes gradientMove {
     0% {
         background-position: 0% 50%;
