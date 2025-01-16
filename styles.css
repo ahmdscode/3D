@@ -67,8 +67,8 @@ nav ul li a:hover {
 
 #about {
     padding: 0px 10px;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 95px;
+    padding-bottom: 75px;
     text-align: center;
 }
 
@@ -393,7 +393,7 @@ html {
   margin-bottom: 20px;
 }
 
-.contact-link, .contact-link-main {
+.contact-link {
   text-decoration: none;
   text-align: center;
   color: rgb(240, 240, 240); /*TEXT COLOR*/
@@ -413,9 +413,8 @@ html {
     padding-bottom: 10px;
   }
 
-.contact-link:hover, .contact-link-main:hover {
+.contact-link:hover {
   transform: translateY(-5px);
-  background: rgb(20, 20, 20);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -423,7 +422,7 @@ html {
     font-size: 32px;
 }
 
-nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfolio-info-text-wide, .portfolio-info-text-else, footer, .contact-link, .contact-link-main  {
+nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfolio-info-text-wide, .portfolio-info-text-else, footer, .contact-link  {
     font-size: 16px;
 }
 
@@ -449,7 +448,7 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
         margin-bottom: 20px;
     }
 
-    .contact-link, .contact-link-main {
+    .contact-link{
         margin: 0px;
         padding: 10px;
     }
@@ -459,7 +458,7 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
         text-align: center;
     }
 
-    nav .logo, nav ul li a, .after-text, .about-info-text, .about-copyright, .portfolio-info-text-else, .portfolio-info-text-wide, .portfolio-info-text, footer, .contact-link, .contact-link-main {
+    nav .logo, nav ul li a, .after-text, .about-info-text, .about-copyright, .portfolio-info-text-else, .portfolio-info-text-wide, .portfolio-info-text, footer, .contact-link {
         font-size: 14px;
         text-align: center;
     }
@@ -480,6 +479,8 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
 
     .portfolio-wide {
         aspect-ratio: 2 / 1; 
+        margin-top: 3.5px;
+        
     }
 
     .portfolio-border{
@@ -500,7 +501,7 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
 
     .portfolio-border-unrendered {
         background-size: 400% 400%; 
-        padding: 7.5px 7.5px;
+        padding: 15px 7.5px;
     }
 
     .portfolio-unrendered {
@@ -527,6 +528,11 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
         transform: scale(1.025);
     }
 
+    .portfolio-border-wide  {
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
 }
 
 @media (max-width: 1439px) { 
@@ -539,6 +545,6 @@ body, #about, .portfolio-border, .portfolio-border-unrendered, #contact {
     background: rgb(25, 25, 25);
 }
 
-#portfolio, .portfolio-info-text-b, .portfolio-info-text-else, .portfolio-info-text-wide, ::-webkit-scrollbar-track{
+#portfolio, .portfolio-info-text-b, .portfolio-info-text-else, .portfolio-info-text-wide, ::-webkit-scrollbar-track, .contact-link:hover {
     background: rgb(20, 20, 20);
 }
