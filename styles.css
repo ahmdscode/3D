@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 
 
-#about-section {
+#about {
     padding: 0px 10px;
     padding-top: 95px;
     padding-bottom: 75px;
@@ -434,7 +434,7 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
 
 @media (max-width: 768px) {
 
-    #about-section {
+    #about {
         padding: 0px 10px;
         padding-top: 30px;
         padding-bottom: 10px;
@@ -541,7 +541,7 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
     }
 }
 
-body, #about-section, .portfolio-border, .portfolio-border-unrendered, #contact {
+body, #about, .portfolio-border, .portfolio-border-unrendered, #contact {
     background: rgb(25, 25, 25);
 }
 
