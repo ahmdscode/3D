@@ -223,7 +223,7 @@ nav ul li a:hover {
     text-align: center;
     font-weight: 100;
     color: rgb(240, 240, 240); /*TEXT COLOR*/
-    margin-bottom: 50px;
+    margin-top: 50px;
     padding: 15px;
     border-radius: 10px;
 }
@@ -496,7 +496,7 @@ nav ul li a, .about-info-text, .about-copyright, .portfolio-info-text, .portfoli
 
     .portfolio-info-text-wide {
         padding: 10px;
-        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
     .portfolio-border-unrendered {
