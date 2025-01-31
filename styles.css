@@ -160,7 +160,7 @@ nav ul li a:hover {
 .box-color {
     color: rgba(240, 240, 240, 0.5);
     text-align: center;
-    padding-top: 90px;  
+    padding-top: 75px;  
     font-weight: 100;
     transition: color 0.1s;
 }
